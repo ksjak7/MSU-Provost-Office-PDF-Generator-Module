@@ -1,0 +1,38 @@
+.App {
+  font-family: Courier !important;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.pdfeditor {
+  width: 8.5in;
+  height: 11in;
+  margin: 15px;
+}
+
+.disabledButton {
+  background-color: gray;
+  color: white;
+  cursor: not-allowed;
+  margin: 25px;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0px 0px 10px 0px grey;
+  font-size: large;
+}
+
+.enabledButton {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin: 25px;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0px 0px 10px 0px grey;
+  font-size: large;
+}
